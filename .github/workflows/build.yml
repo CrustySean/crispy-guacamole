@@ -18,4 +18,4 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: crispy-guacamole
-        path: target/debug/crispy-guacamole
+        path: /home/runner/work/crispy-guacamole/crispy-guacamole/target/debug/crispy-guacamole
