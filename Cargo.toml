@@ -1,0 +1,12 @@
+[package]
+name = "crispy-guacamole"
+version = "0.0.1"
+authors = ["CrustySeanPro 59363047+CrustySean@users.noreply.github.com"]
+
+[[bin]]
+name = "crispy-guacamole"
+path = "src/lib.rs"
+
+[dependencies]
+rand = { git = "https://github.com/rust-lang-nursery/rand.git" }
+colored = "2"
