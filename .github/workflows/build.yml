@@ -54,6 +54,5 @@ jobs:
     with:
       profile: minimal
       toolchain: stable
-      override: true
     - name: Build
     run: cargo build --verbose
