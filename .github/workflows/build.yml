@@ -28,8 +28,8 @@ jobs:
 
   win:
     runs-on: windows-latest
-      name: build for Windows
-      steps:
+    name: build for windows
+    steps:
     - uses: actions/checkout@v2
     - name: Install stable toolchain
       uses: actions-rs/toolchain@v1
